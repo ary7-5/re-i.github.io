@@ -1,0 +1,59 @@
+body {
+    background-image: url("tokyo3-2.png")
+}
+table {
+    background: white;
+    margin-top: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+border-collapse: collapse;
+}
+td, th {
+border: 3px solid pink;
+}
+th[scope="col"] {
+padding: 1% 0%;
+    font-family: arial;
+    font-style: italic;
+    font-size: 300%;
+border-bottom-width: 0px;
+}
+p[scope="2"] {
+  border-top: 0px;
+font-family: monospace;
+    font-size: 50%;
+ font-style: normal;
+    font-weight: lighter;
+    border-bottom: 0px;
+    margin-top: 30px;
+}
+p[scope="3"] {
+  border-top: 0px;
+font-family: monospace;
+    font-size: 150%;
+ color: white;
+}
+div[scope="links"] {
+    margin-bottom: auto;
+}
+button {
+    
+    position: relative;
+    right: 300px;
+    bottom: 50px;
+    scale: 0.3;
+}
+article[scope="index"] h1 {
+   text-align: center;
+   position: relative;
+    bottom: 200px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+}
+h2, h3 {
+    padding: 0 5%;
+    font-family: monospace;
+    font-weight: lighter;
+}
