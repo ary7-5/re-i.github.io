@@ -1,15 +1,42 @@
 body {
-    background-image: url("tokyo3-2.png")
+letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+img[id="bg"] {
+    top:700px;
+right: 1000px;
 }
 table {
-    background: white;
+
+    background: rgba(255, 255, 255, 0.8);
     margin-top: 150px; 
     margin-left: auto;
     margin-right: auto;
 border-collapse: collapse;
+    text-align: center;
+}
+div[id="main"] {
+    padding-bottom: 30px;
+    margin-top: -50px;
+}
+table[id="shit"] th {
+    font-family: arial;
+    font-style: italic;
+}
+table[id="shit"] {
+font-family: arial;
+position: relative;
+    table-layout: fixed;
+    width: 637px;
+    bottom: 35px;
 }
 td, th {
-border: 3px solid pink;
+    max-height: 90%;
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    border: 3px solid pink;
+    scale: revert;
 }
 th[scope="col"] {
 padding: 1% 0%;
@@ -27,33 +54,37 @@ font-family: monospace;
     border-bottom: 0px;
     margin-top: 30px;
 }
-p[scope="3"] {
-  border-top: 0px;
-font-family: monospace;
-    font-size: 150%;
- color: white;
+td[class="main"] div {
+        display: flex;
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    justify-content: space-evenly;
 }
+
 div[scope="links"] {
-    margin-bottom: auto;
+    border-bottom: solid 3px pink;
+    margin: 10px 0 0 0;
+    padding: 5px 0 80px;
 }
 button {
-    
-    position: relative;
-    right: 300px;
-    bottom: 50px;
-    scale: 0.3;
+    margin-top: 60px;
+    background: transparent;
+    border-color: rgba(0,0,0,1);
 }
 article[scope="index"] h1 {
    text-align: center;
    position: relative;
-    bottom: 200px;
+    bottom: 280px;
     font-family: arial;
     font-style: italic;
     font-weight: bold;
     font-size: 150%;
 }
 h2, h3 {
+    white-space: collapse;
     padding: 0 5%;
     font-family: monospace;
     font-weight: lighter;
+text-align: left;
 }
