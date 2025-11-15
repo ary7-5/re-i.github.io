@@ -13,7 +13,7 @@ function choose () {
           var random = Math.floor(Math.random() * 9);            
                 var filename = "";
                 filename = fileArray[random];
-                var song = "music/" + filename;
+                var song = filename;
 
         if(random == 1 || random == 0) {
                 var title = "voice (tsuchiya remix)";
