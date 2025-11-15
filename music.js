@@ -15,7 +15,7 @@ function choose () {
                 filename = fileArray[random];
                 var song = "music/" + filename;
 
-        if(random == 1) {
+        if(random == 1 || random == 0) {
                 var title = "voice (tsuchiya remix)";
                 var artist = "atlus sound team";
         
@@ -40,7 +40,7 @@ function choose () {
                  artist = "weezer";                
         }
           else if(random == 7) {
-                 title = "M11 re-arrage / re-mix";
+                 title = "M11 re-arrange / re-mix";
                  artist = "arianne";                
         }
           else if(random == 8) {
