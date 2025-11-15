@@ -1,7 +1,7 @@
 // music; if i can get any shit done
 
-const fileArray = ["2-24 Voice (Atlus Tsuchiya Remix).mp3" , "03 - Porter Robinson - Get Your Wish.mp3" , "07 - Porter Robinson - Mother.mp3" , "17 - Light Velocity Ver.II.mp3" , "27. Ideal and the Real -end version-.mp3"
-        , "I Just Threw Out The Love Of My Dreams.mp3" , "M11 re-arrange and re-mix_spotmp3.app.mp3" , "Step On Me_spotdown.app.mp3" , "SpotiMate.io - Seether - Veruca Salt.mp3"];
+const fileArray = ["voice.mp3" , "getyourwish.mp3" , "mother.mp3" , "lightvelocity.mp3" , "idealandthereal.mp3"
+        , "IJustThrewOutTheLoveOfMyDreams.mp3" , "m11.mp3" , "steponme.mp3" , "seether.mp3"];
         
 
 setTimeout(choose, 5000)
