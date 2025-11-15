@@ -14,8 +14,9 @@ function choose () {
                 var filename = "";
                 filename = fileArray[random];
                 var song = "music/" + filename;
+                random = random + 1
 
-        if(random == 1 || random == 0) {
+        if(random == 1) {
                 var title = "voice (tsuchiya remix)";
                 var artist = "atlus sound team";
         
@@ -52,7 +53,7 @@ function choose () {
                  artist = "veruca salt";                
         }
 
-    src.innerHTML = '<audio controls src="' + song + '"></audio><br>'+
+    src.innerHTML = '<audio controls="" loop=""><source type="audio/mpeg" src="' + song + '">Your browser does not support the audio element.</audio><br>'+
           '<b id="title" style="font-family: monospace;">title</b><br>' +
           '<b id="artist" style="font-weight: lighter; color: grey; font-style: italic; font-family: monospace;">artist</b>';
      
