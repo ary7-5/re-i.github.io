@@ -1,0 +1,92 @@
+body {
+letter-spacing: 0.1rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+table {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+div[id="main"] {
+    padding-bottom: 30px;
+    margin-top: -50px;
+}
+table[id="shit"] th {
+    font-family: arial;
+    font-style: italic;
+}
+table[id="shit"] {
+    font-family: arial;
+    position: relative;
+    table-layout: fixed;
+    text-align: center;
+    width: 637px;
+    bottom: 35px;
+}
+td, th {
+    max-height: 90%;
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    border: 3px solid pink;
+    scale: revert;
+}
+th[scope="col"] {
+padding: 1% 0%;
+    font-family: arial;
+    font-style: italic;
+    font-size: 300%;
+border-bottom-width: 0px;
+}
+p[scope="2"] {
+  border-top: 0px;
+font-family: monospace;
+    font-size: 50%;
+ font-style: normal;
+    font-weight: lighter;
+    border-bottom: 0px;
+    margin-top: 30px;
+}
+td[class="main"] div {
+        display: flex;
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+div[scope="links"] {
+    border-bottom: solid 3px pink;
+    margin: 10px 0 0 0;
+    padding: 5px 0 80px;
+}
+button {
+    margin-top: 60px;
+    background: transparent;
+    border-color: rgba(0,0,0,1);
+}
+article[scope="index"] h1 {
+   text-align: center;
+   position: relative;
+    bottom: 280px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+}
+h2, h3 {
+    white-space: collapse;
+    padding: 0 5%;
+    font-family: monospace;
+    font-weight: lighter;
+text-align: left;
+}
