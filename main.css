@@ -32,6 +32,9 @@ table[id="shit"] {
     width: 637px;
     bottom: 35px;
 }
+.td {
+    height: 126px;
+}
 td, th {
     max-height: 90%;
     max-width: 90%;
@@ -57,10 +60,10 @@ font-family: monospace;
     margin-top: 30px;
 }
 td[class="main"] div {
-        display: flex;
+    display: flex;
     max-width: 100%;
     width: 1000px;
-    height: auto;
+    height: min-content;
     justify-content: space-evenly;
 }
 
@@ -68,11 +71,20 @@ div[scope="links"] {
     border-bottom: solid 3px pink;
     margin: 10px 0 0 0;
     padding: 5px 0 80px;
+    height: 338px;
 }
 button {
     margin-top: 60px;
     background: transparent;
     border-color: rgba(0,0,0,1);
+}
+.mbutton {
+    transition: all;
+    transition-timing-function: ease;
+    transition-duration: 0.1s;
+}
+.mbutton:hover {
+    outline: 3px solid pink;
 }
 article[scope="index"] h1 {
    text-align: center;
